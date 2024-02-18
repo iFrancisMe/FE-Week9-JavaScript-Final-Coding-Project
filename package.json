@@ -4,7 +4,7 @@
   "description": "FESD20231128 Week 9 JS Final Project - War, The card game",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Francis Mendoza",
   "license": "ISC",
