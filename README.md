@@ -57,9 +57,10 @@ Finally, for the end of the game, I wanted a caption to indicate that the progra
 
 A side note:
 I realize one might not want to sit through a non-interactive game for 26 rounds while not being able to play. So, I added the ability to disable the delayed handling of console messages by providing an option of passing a Boolean false value into the class constructor for the game. Details are commented in the source code, and I may also add some additional documentation for running this program in the GitHub README.md.
-## Documentation
+## Documentation  
 
-## *tl;dr*
+
+### _tl;dr_
 
 #### Step 1.
 Clone the repository  
@@ -96,6 +97,7 @@ Open **index.html** in a browser. You will need to ***right-click*** on the page
 ##### *****Option + ⌘ + J***** for ***Chrome-based browsers*** ****(MacOS)****
 ##### *****Ctrl + Shift + J***** for ***Chrome-based browsers*** ****(Windows, Linux)****
 
+## 
 ### *Running the program (The longer version)*
 The default running mode of this program is designed to resemble an interactive console program where there is some time in between console output and console input. Since there is no input, the program would otherwise iterate through the game turns seemingly all at once and appear to display everything immediately after executing the script. To mimic console interaction, there is a delay at every console output to resemble prompting for player input as each "player" interacts with the game and "plays" a card. The only side effect to this is that reaching the end of the program will take roughly half a minute to go through 26 "interactive" turns. However, rounds ending in a tie do skip this delay and proceed to the next round.
 
@@ -122,9 +124,16 @@ You can also, optionally, comment the 'letsPlayAGame' method and uncomment the '
 
 >Thank you for playing my game - James Halliday/Anorak (Ready Player One, 2018)
 
-# Supplemental Information
+## Supplemental Information
 The project requirements, based on the simplified game rules design, calls for 2 players, so this program is ultimately designed and tested for 2 non-interactive players. However, I have designed most, if not all, of this program's classes and methods to potentially allow for additional players or optionally, different playing cards or decks, or, at least, some thought and effort went into not constraining their functionality strictly to the project's requirements so that it might be more easily adaptable into handling more players, other game implementations, or possibly even human interaction.
 
 
 ## Unit Tests in Mocha and Chai
-Unit tests are viewable from test.html in the root of this repository. The test script is located in the 'test' subfolder.
+Unit tests are viewable from test.html in the root of this repository. The test script is located in the 'test' subfolder.  
+
+#### You will need to install the relevant node modules to view them. Run the following from the root of the project folder:
+
+> **_npm install_**        
+
+#### Then launch the following file in your browser.   
+> **_test.html_**
