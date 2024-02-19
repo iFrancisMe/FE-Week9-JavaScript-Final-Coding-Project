@@ -126,3 +126,5 @@ You can also, optionally, comment the 'letsPlayAGame' method and uncomment the '
 The project requirements, based on the simplified game rules design, calls for 2 players, so this program is ultimately designed and tested for 2 non-interactive players. However, I have designed most, if not all, of this program's classes and methods to potentially allow for additional players or optionally, different playing cards or decks, or, at least, some thought and effort went into not constraining their functionality strictly to the project's requirements so that it might be more easily adaptable into handling more players, other game implementations, or possibly even human interaction.
 
 
+## Unit Tests in Mocha and Chai
+Unit tests are viewable from test.html in the root of this repository. The test script is located in the 'test' subfolder.
